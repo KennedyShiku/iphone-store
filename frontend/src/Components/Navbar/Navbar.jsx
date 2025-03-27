@@ -1,10 +1,11 @@
 import React from 'react'
 import logo from '../Assets/iphone_store.png';
 import { FiShoppingCart } from "react-icons/fi";
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
       <div className="nav-logo">
         <img src={logo} alt="" />
         <p>SHOPPER</p>
