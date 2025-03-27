@@ -11,7 +11,7 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li>Shop</li>
+        <li>Shop<hr/></li>
         <li>iPhones</li>
         <li>Laptops</li>
         <li>Audio</li>
