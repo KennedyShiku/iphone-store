@@ -14,10 +14,10 @@ const Navbar = () => {
         <p>iPhone Store Kenya</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={() => {setMenu("shop")}}>Shop {menu === "shop" ? <hr /> : <></>}</li>
-        <li onClick={() => {setMenu("iphones")}}>iPhones {menu === "iphones" ? <hr /> : <></>}</li>
-        <li onClick={() => {setMenu("laptops")}}>Laptops {menu === "laptops" ? <hr /> : <></>}</li>
-        <li onClick={() => {setMenu("audio")}}>Audio {menu === "audio" ? <hr /> : <></>}</li>
+        <li onClick={() => {setMenu("shop")}}><Link to='/'>Shop</Link>{menu === "shop" ? <hr /> : <></>}</li>
+        <li onClick={() => {setMenu("iphones")}}><Link to='/iphones'>iPhones </Link>{menu === "iphones" ? <hr /> : <></>}</li>
+        <li onClick={() => {setMenu("laptops")}}><Link to='/laptops'>Laptops</Link> {menu === "laptops" ? <hr /> : <></>}</li>
+        <li onClick={() => {setMenu("audio")}}><Link to='/audio'>Audio</Link>{menu === "audio" ? <hr /> : <></>}</li>
       </ul>
       <div className="nav-login-cart">
         <button>Login</button>
